@@ -1,4 +1,4 @@
-gpusmp
+GPU Implementation of the Stable Marriage Problem
 ======
 
-GPU Implementation of the Stable Marriage Problem
+The stable marriage problem is the task of finding a stable matching between two sets elements, A and B, such that each element in set A is paired with an element in B and there is no alternative better pairing.    The first description of the algorithm was given by Gale and Shapley in 1962 ("College Admissions and the Stability of Marriage", American Mathematical Monthly 69) and it has been extensively studied since.  It can be formulated as a Bipartite graph and there are parallel implementations known.  Bipartite graph algorithms are of interest but appear to be difficult to implement on GPU.  This project would be to implement and characterise this algorithm on a GPU, not necessarily to implement a super-efficient algorithm, but to discover and measure what aspects of the GPU architecture cause the difficulties. 
